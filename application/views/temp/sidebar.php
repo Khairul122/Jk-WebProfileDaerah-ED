@@ -83,12 +83,12 @@
                                 <p>&nbsp;&nbsp;Visi dan Misi</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="<?= base_url('admin/lambang') ?>" class="nav-link <?= $pages == 'lambang' ? 'active' : null ?>">
                                 <i class="fa-solid fa-caret-right"></i>
                                 <p>&nbsp;&nbsp;Lambang Daerah</p>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a href="<?= base_url('admin/struktur') ?>" class="nav-link <?= $pages == 'struktur' ? 'active' : null ?>">
                                 <i class="fa-solid fa-caret-right"></i>
