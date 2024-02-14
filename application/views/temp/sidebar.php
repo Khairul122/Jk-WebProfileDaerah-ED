@@ -31,7 +31,7 @@
                     <a href="#" class="nav-link <?= ($pages == 'settingapps' || $pages == 'slider' || $pages == 'link' || $pages == 'user') ? 'active' : null ?>">
                         <i class="nav-icon fa-solid fa-screwdriver-wrench"></i>
                         <p>
-                            Setting
+                            Pengaturan
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -39,13 +39,13 @@
                         <li class="nav-item">
                             <a href="<?= base_url('admin/apps') ?>" class="nav-link  <?= $pages == 'settingapps' ? 'active' : null ?>">
                                 <i class="fa-solid fa-caret-right"></i>
-                                <p>&nbsp;&nbsp;Apps</p>
+                                <p>&nbsp;&nbsp;Data Daerah</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('admin/sliders') ?>" class="nav-link <?= $pages == 'slider' ? 'active' : null ?>">
                                 <i class="fa-solid fa-caret-right"></i>
-                                <p>&nbsp;&nbsp;Slider Frontend</p>
+                                <p>&nbsp;&nbsp;Tampilan Depan</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -57,7 +57,7 @@
                         <li class="nav-item">
                             <a href="<?= base_url("admin/user") ?>" class="nav-link <?= $pages == 'user' ? 'active' : null ?>">
                                 <i class="fa-solid fa-caret-right"></i>
-                                <p>&nbsp;&nbsp;User</p>
+                                <p>&nbsp;&nbsp;Pengguna</p>
                             </a>
                         </li>
                     </ul>
