@@ -7,16 +7,16 @@
                 </div>
                 <div class="card-body">
                     <a class="btn btn-app" href="<?= base_url("admin/apps") ?>">
-                        <i class="fas fa-university"></i> Apps
+                        <i class="fas fa-university"></i> Pengaturan
                     </a>
                     <a class="btn btn-app" href="<?= base_url("admin/slider") ?>">
-                        <i class="fas fa-sliders"></i> Sliders
+                        <i class="fas fa-sliders"></i> Tampilan Depan
                     </a>
                     <a class="btn btn-app" href="<?= base_url("admin/link") ?>">
                         <i class="fas fa-link"></i> Link Terkait
                     </a>
                     <a class="btn btn-app" href="<?= base_url("admin/user") ?>">
-                        <i class="fas fa-users"></i> Users
+                        <i class="fas fa-users"></i> Pengguna
                     </a>
                     <a class="btn btn-app" href="<?= base_url("admin/sejarah") ?>">
                         <i class="fas fa-building-flag"></i> Sejarah

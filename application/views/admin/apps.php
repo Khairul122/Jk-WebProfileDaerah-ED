@@ -73,7 +73,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <button class="btn btn-sm btn-info float-right" type="submit">
-                                            <i class="fas fa-save"></i> Update
+                                            <i class="fas fa-save"></i> Submit
                                         </button>
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@
                                             <div>
                                                 <div class="text-right">
                                                     <button class="btn btn-sm btn-info" type="submit">
-                                                        <i class="fas fa-save"></i> Update
+                                                        <i class="fas fa-save"></i> Submit
                                                     </button>
                                                 </div>
 

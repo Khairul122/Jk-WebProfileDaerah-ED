@@ -27,17 +27,17 @@
                         <div>
                             <div class="filter-container p-0 row">
                                 <?php
-                                foreach ($links as $link) :
-                                ?>
-                                    <div class="filtr-item col-sm-2" data-category="<?= $link['jenis'] ?>" data-sort="black sample">
-                                        <a href="<?= base_url('assets/images/gallery/' . $link['desc']) ?>" data-toggle="lightbox" data-title="<?= $link['judul'] ?>">
-                                            <img src="<?= base_url('assets/images/gallery/' . $link['desc']) ?>" class="img-fluid mb-2" alt="black sample" />
-                                            <a class="text-danger" id="hapus" href="#" onclick="konfirmasi('','<?= $link['no']; ?> - <?= $link['judul']; ?>','<?= base_url('admin/galeri/delete/' . base64_encode($link['no'])); ?>')">
+foreach ($links as $link):
+?>
+                                    <div class="filtr-item col-sm-2" data-category="<?=$link['jenis']?>" data-sort="black sample">
+                                        <a href="<?=base_url('assets/images/gallery/' . $link['desc'])?>" data-toggle="lightbox" data-title="<?=$link['judul']?>">
+                                            <img src="<?=base_url('assets/images/gallery/' . $link['desc'])?>" class="img-fluid mb-2" alt="black sample" />
+                                            <a class="text-danger" id="hapus" href="#" onclick="konfirmasi('','<?=$link['no'];?> - <?=$link['judul'];?>','<?=base_url('admin/galeri/delete/' . base64_encode($link['no']));?>')">
                                                 <i class="fas fa-trash"></i>
                                             </a>
                                         </a>
                                     </div>
-                                <?php endforeach; ?>
+                                <?php endforeach;?>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
 <div class="modal fade" id="tambahModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-            <form id="profile" method="post" action="<?= base_url('admin/galeri/save') ?>" class="needs-validation" enctype="multipart/form-data">
+            <form id="profile" method="post" action="<?=base_url('admin/galeri/save')?>" class="needs-validation" enctype="multipart/form-data">
                 <div class="container-fluid">
                     <div class="card card-primary card-outline mt-1">
                         <div class="card-body box-profile">
@@ -98,7 +98,7 @@
                     <div class="card-footer">
                         <div class="text-right">
                             <button class="btn btn-sm btn-info" type="submit">
-                                <i class="fas fa-save"></i> Update
+                                <i class="fas fa-save"></i> Submit
                             </button>
                             <button class="btn btn-sm btn-danger" data-dismiss="modal">
                                 <i class="fa-solid fa-xmark"></i> Batal

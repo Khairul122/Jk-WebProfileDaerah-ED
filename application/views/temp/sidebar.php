@@ -36,12 +36,7 @@
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="<?= base_url('admin/apps') ?>" class="nav-link  <?= $pages == 'settingapps' ? 'active' : null ?>">
-                                <i class="fa-solid fa-caret-right"></i>
-                                <p>&nbsp;&nbsp;Data Daerah</p>
-                            </a>
-                        </li>
+
                         <li class="nav-item">
                             <a href="<?= base_url('admin/sliders') ?>" class="nav-link <?= $pages == 'slider' ? 'active' : null ?>">
                                 <i class="fa-solid fa-caret-right"></i>
@@ -54,12 +49,12 @@
                                 <p>&nbsp;&nbsp;Link Terkait</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="<?= base_url("admin/user") ?>" class="nav-link <?= $pages == 'user' ? 'active' : null ?>">
                                 <i class="fa-solid fa-caret-right"></i>
                                 <p>&nbsp;&nbsp;Pengguna</p>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
                 <li class="nav-item <?= ($pages == 'sejarah' || $pages == 'visi' || $pages == 'lambang' || $pages == 'struktur' || $pages == 'opd') ? 'menu-open' : null ?>">
@@ -93,6 +88,12 @@
                             <a href="<?= base_url('admin/struktur') ?>" class="nav-link <?= $pages == 'struktur' ? 'active' : null ?>">
                                 <i class="fa-solid fa-caret-right"></i>
                                 <p>&nbsp;&nbsp;Struktur Organisasi</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('admin/apps') ?>" class="nav-link  <?= $pages == 'struktur' ? 'active' : null ?>">
+                                <i class="fa-solid fa-caret-right"></i>
+                                <p>&nbsp;&nbsp;Data Daerah</p>
                             </a>
                         </li>
                         <!-- <li class="nav-item">

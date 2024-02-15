@@ -13,7 +13,7 @@
                     <div class="card-footer">
                         <div class="text-right">
                             <button class="btn btn-sm btn-info" type="submit">
-                                <i class="fas fa-save"></i> Update
+                                <i class="fas fa-save"></i> Submit
                             </button>
                         </div>
                     </div>
